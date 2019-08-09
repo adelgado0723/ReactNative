@@ -49,3 +49,6 @@ sweat-book/\.buckd/
 sweat-book/android/app/libs
 sweat-book/android/keystores/debug.keystore
 
+Todo/node_modules
+Todo/.DS_Store
+Todo/.vscode

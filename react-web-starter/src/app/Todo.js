@@ -39,6 +39,7 @@ export class Todo extends Component {
   render() {
     return (
       <div>
+        <h1>To-Do List</h1>
         <form>
           <input
             ref={node => (this.input = node)}
@@ -50,7 +51,10 @@ export class Todo extends Component {
         </form>
         <ul>
           {this.state.items.map((item, index) => (
-            <li onClick={this.removeItem.bind(this, [index])} key={item}>
+            <li
+              onClick={this.removeItem.bind(this, [index])}
+              key={index + item}
+            >
               {item}
             </li>
           ))}
