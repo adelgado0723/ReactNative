@@ -1,0 +1,33 @@
+{
+  "name": "SweatBook",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^2.5.0",
+    "lodash": "^4.13.1",
+    "react": "15.1.0",
+    "react-native": "^0.60.4",
+    "react-native-linear-gradient": "^1.5.12",
+    "react-native-scrollable-tab-view": "^0.5.1",
+    "react-native-search-bar": "^2.11.0",
+    "react-native-vector-icons": "^2.0.3",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-actions": "^0.10.0",
+    "redux-thunk": "^2.1.0",
+    "rxjs": "^5.0.0-beta.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2"
+  }
+}

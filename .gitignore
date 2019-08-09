@@ -1,0 +1,51 @@
+reac*t-web-starter/node_modules
+react-web-starter/.DS_Store
+react-web-starter/*.log
+
+node_modules/
+.env
+
+.DS_Store
+
+# OSX
+#
+sweat-book/.DS_Store
+
+# Xcode
+#
+sweat-book/build/
+sweat-book/*.pbxuser
+sweat-book/!default.pbxuser
+sweat-book/*.mode1v3
+sweat-book/!default.mode1v3
+sweat-book/*.mode2v3
+sweat-book/!default.mode2v3
+sweat-book/*.perspectivev3
+sweat-book/!default.perspectivev3
+sweat-book/xcuserdata
+sweat-book/*.xccheckout
+sweat-book/*.moved-aside
+sweat-book/DerivedData
+sweat-book/*.hmap
+sweat-book/*.ipa
+sweat-book/*.xcuserstate
+sweat-book/project.xcworkspace
+
+# Android/IJ
+#
+sweat-book/*.iml
+sweat-book/.idea
+sweat-book/.gradle
+sweat-book/local.properties
+
+# node.js
+#
+sweat-book/node_modules/
+sweat-book/npm-debug.log
+
+# BUCK
+sweat-book/buck-out/
+sweat-book/\.buckd/
+sweat-book/android/app/libs
+sweat-book/android/keystores/debug.keystore
+
